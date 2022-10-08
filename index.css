@@ -1,6 +1,7 @@
 /* Google Fonts - Poppins */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +10,7 @@
 }
 body {
   /* min-height: 5%; */
-  background: #e3f2fd;
+  background: #ffffff;
 }
 .logo-img {
     display: flex;
@@ -63,6 +64,8 @@ nav.open .sidebar {
 }
 .lists .nav-link:hover {
   background-color: #4070f4;
+  width: 170px;
+
 }
 .nav-link .icon {
   margin-right: 14px;
@@ -98,3 +101,76 @@ nav.open ~ .overlay {
 .bottom-cotent {
     padding-top: 50px;
 }
+
+.inputs {
+  position: absolute;
+  left: 320px;
+  top: 28px;
+  border: 1px solid #000000;
+  border-radius: 0px;
+  box-sizing: border-box; */
+}
+
+
+.form-control {
+  text-indent: 15px;
+border: none;
+width: 650px;
+height: 35px;
+color: #b8b9bc;
+border-radius: 0px;
+border-bottom: 1px solid #eee;
+}
+
+.form-control:focus {
+color: #495057;
+background-color: #fff;
+border-color: #eee;
+outline: 0;
+box-shadow: none;
+border-bottom: 1px solid blue;
+}
+
+
+
+.icon-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  color: #333333;
+  background: #dddddd;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  position: absolute;
+  left: 1080px;
+  top: 28px;
+
+  
+}
+
+.icon-button:hover {
+  cursor: pointer;
+}
+
+.icon-button:active {
+  background: #cccccc;
+}
+
+.icon-button__badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 25px;
+  height: 25px;
+  background: red;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
